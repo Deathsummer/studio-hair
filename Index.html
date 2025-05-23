@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Hair Irene Rodrigues</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Studio Hair Irene Rodrigues</h1>
+        <p>Beleza e cuidado para seus cabelos</p>
+    </header>
+
+    <section class="agendamento">
+        <h2>Agende Seu Horário</h2>
+        <form id="form-agendamento">
+            <input type="text" id="nome" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu E-mail" required>
+            <input type="tel" id="telefone" placeholder="Telefone" required>
+            <select id="servico" required>
+                <option value="">Selecione um serviço</option>
+                <option value="corte">Corte</option>
+                <option value="coloração">Coloração</option>
+                <option value="tratamento">Tratamento Capilar</option>
+            </select>
+            <input type="datetime-local" id="data" required>
+            <button type="submit">Agendar</button>
+        </form>
+        <div id="confirmacao"></div>
+    </section>
+
+    <footer>
+        <p>© 2023 Studio Hair Irene Rodrigues. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
